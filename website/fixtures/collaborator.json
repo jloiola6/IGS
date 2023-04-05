@@ -1,0 +1,38 @@
+[
+    {
+        "model": "core.collaborator",
+        "pk": 1,
+        "fields": {
+            "name": "Jamilly Tscha",
+            "email": "jamilly@gmail.com",
+            "departament": 1
+        }
+    },
+    {
+        "model": "core.collaborator",
+        "pk": 2,
+        "fields": {
+            "name": "Rodrigo Silva",
+            "email": "rodrigo@outlook.com",
+            "departament": 1
+        }
+    },
+    {
+        "model": "core.collaborator",
+        "pk": 3,
+        "fields": {
+            "name": "Ribeiro Loiola",
+            "email": "cejorima@gmail.com",
+            "departament": 2
+        }
+    },
+    {
+        "model": "core.collaborator",
+        "pk": 4,
+        "fields": {
+            "name": "Julio Nonato",
+            "email": "julio@hotmail.com",
+            "departament": 3
+        }
+    }
+]

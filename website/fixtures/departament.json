@@ -1,0 +1,23 @@
+[
+    {
+        "model": "core.departament",
+        "pk": 1,
+        "fields": {
+            "name": "RH"
+        }
+    },
+    {
+        "model": "core.departament",
+        "pk": 2,
+        "fields": {
+            "name": "Jurídico"
+        }
+    },
+    {
+        "model": "core.departament",
+        "pk": 3,
+        "fields": {
+            "name": "Financeiro"
+        }
+    }
+]

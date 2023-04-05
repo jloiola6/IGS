@@ -1,0 +1,34 @@
+{% extends 'partials/base.html' %}
+
+{% block content %}
+    <div class="container botoes" style="margin-top: 100px; width: fit-content; gap: 100px; display: flex;">
+        <a class="btn btn-primary" href="/api" role="button">Abrir tela API</a>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-admin">Tela de administrador</button>
+        <a class="btn btn-primary" href="{% url 'api:doc' %}" role="button">Abrir Documentação</a>
+    </div>
+
+    <section class="container hero" style="margin-top: 20px; background-color: white;">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Departament</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in queryset %}
+                    <tr>
+                        <th scope="row">{{ item.id }}</th>
+                        <td>{{ item.name }}</td>
+                        <td>{{ item.email }}</td>
+                        <td>{{ item.departament }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    {% include 'partials/_modal-admin.html' %}
+{% endblock %}
