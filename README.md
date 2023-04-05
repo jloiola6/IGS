@@ -12,7 +12,7 @@ O que foi realizado:
 
 Espero que gostem da aplicação e obrigado pela oportunidade :)
 
-# Inicio do 
+# Iniciando o projeto 
 Considerando que já foi realiado o clone do repositório e já estamos dentro do diretório do mesmo, vamos seguir os seguintes passo...
 	
 # 1 - Carregar Bibliotecas
