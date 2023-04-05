@@ -9,7 +9,7 @@ Espero que gostem :)
 
 **Nota**: Aconselho a criação de uma virtualenv para garantir que as bibliotecas instaladas neste projeto não gerem conflitos com as bibliotecas instaladas na máquina que rodará o mesmo.
 
-Baixe as bibliotecas para executar esse projeto usando o comando:
+Baixe as bibliotecas para executar esse projeto usando o comando (pode demorar um pouco):
 > $ pip install -r requirements.txt
 
 # Entrar no diretório do nosso projeto (website)
